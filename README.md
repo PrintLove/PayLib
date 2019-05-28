@@ -13,7 +13,7 @@ PayLib 创建
 
 在App module 下加入:
 
- implementation 'com.github.PrintLove:PayLib:$version'
+ 	implementation 'com.github.PrintLove:PayLib:$version'
 
 
 调起支付宝支付：
