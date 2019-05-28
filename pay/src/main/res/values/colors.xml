@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="COLOR_333333">#333</color>
+    <color name="COLOR_FAFAFA">#fafafa</color>
+    <color name="COLOR_DDD">#DDDDDD</color>
+    <color name="COLOR_CCC">#CCCCCC</color>
+    <color name="COLOR_999">#999999</color>
+    <color name="COLOR_0F9ACD">#0f9acd</color>
+    <color name="COLOR_FF391F">#ff391f</color>
+    <color name="COLOR_BB000000">#bb000000</color>
+    <color name="COLOR_E0E0E0">#e0e0e0</color>
+    <color name="COLOR_BEBEBE">#bebebe</color>
+    <color name="COLOR_EFEFEF">#efefef</color>
+    <color name="COLOR_00000000">#00000000</color>
+    <color name="holo_red_dark">#ffcc0000</color>
+</resources>

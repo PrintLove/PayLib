@@ -1,0 +1,24 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+          package="com.pay.utils">
+
+    <uses-permission android:name="android.permission.INTERNET"/>
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE"/>
+    <uses-permission android:name="android.permission.READ_PHONE_STATE"/>
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
+
+    <application>
+        <activity android:name=".activity.UnionActivity"
+                  android:theme="@style/MyTranslucentTheme"
+                  android:launchMode="singleInstance"
+                  android:screenOrientation="portrait"/>
+
+        <receiver android:name=".factory.bean.WeChatPayReq$Receiver"
+                  android:enabled="true"
+                  android:exported="false">
+            <intent-filter>
+                <action android:name="com.pay.utils.factory.bean.WeChatPayReq$Receiver"/>
+            </intent-filter>
+        </receiver>
+    </application>
+</manifest>
